@@ -1,0 +1,177 @@
+/* Removes default margin and padding from all elements */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body styling */
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background-color: bisque;
+
+    color:#333;
+
+}
+
+/* Header */
+
+header{
+
+    background:#222;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+}
+h2{
+    background-color: brown;
+    text-align: center;
+    color: bisque;
+}
+
+/* Navigation List */
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+/* Navigation Links */
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+/* Hover Effect */
+
+nav a:hover{
+
+    color:yellow;
+
+}
+
+/* Hero Section */
+
+.hero{
+
+    text-align:center;
+
+    padding:80px;
+
+    background-color: burlywood ;
+
+    color:white;
+
+}
+
+/* Button */
+
+button{
+
+    margin-top:20px;
+
+    padding:10px 20px;
+
+    border:none;
+
+    background:white;
+
+    color:#4CAF50;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    border-radius:5px;
+
+}
+
+button:hover{
+
+    background:#ddd;
+
+}
+
+/* General Section Styling */
+
+section{
+
+    padding:40px;
+
+}
+
+/* About Image */
+
+#about img{
+
+    width:180px;
+
+    border-radius:50%;
+
+    margin:20px 0;
+
+}
+
+/* Skills List */
+
+#skills ul{
+
+    margin-left:20px;
+
+}
+
+/* Project Cards */
+
+.project{
+
+    background:white;
+
+    padding:20px;
+
+    margin-top:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px lightgray;
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    background:#222;
+
+    color:white;
+
+    padding:20px;
+
+}
+p{
+    background-color: #ddd;
+}
